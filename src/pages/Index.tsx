@@ -10,10 +10,11 @@ const Index = () => {
       description: "Master complex integration patterns and build sophisticated applications with multiple data sources and APIs.",
       duration: "1 hour",
       objectives: [
-        "Complex API integration strategies",
-        "Managing multiple data sources",
-        "Advanced authentication patterns",
-        "Real-time data synchronization"
+        "Introduce yourself",
+        "Resource Orientation",
+        "Payments: Adding Stripe payment pages to your app",
+        "Login: Using Supabase for advanced login integrations",
+        "Q&A"
       ]
     }
   ];
