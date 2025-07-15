@@ -1,20 +1,18 @@
-import logo from "@/assets/logo.png";
-
 export const Header = () => {
   return (
-    <div className="relative min-h-screen bg-gradient-hero flex flex-col items-center justify-center text-white px-4">
+    <div className="relative min-h-[25vh] bg-gradient-hero flex flex-col items-center justify-center text-white px-4">
       <div className="absolute inset-0 bg-black/10"></div>
       
       <div className="relative z-10 text-center max-w-4xl">
-        <div className="mb-8">
+        <div className="mb-6">
           <img 
-            src={logo} 
+            src="/lovable-uploads/071172b1-8442-4767-8a0c-9ebc62414ec7.png" 
             alt="The Inner Circle by Launch by Lunch" 
-            className="mx-auto w-32 h-32 object-contain mb-4"
+            className="mx-auto w-24 h-24 object-contain mb-4"
           />
         </div>
         
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4">
           Advanced Vibe Coding
         </h1>
         
