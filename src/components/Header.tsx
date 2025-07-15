@@ -6,6 +6,11 @@ export const Header = () => {
       <div className="relative z-10 text-center max-w-4xl">
         <div className="mb-6">
           <img 
+            src="/lovable-uploads/f9d335ad-0a3c-4a35-aad3-23d062fb62e6.png" 
+            alt="The Inner Circle by Launch by Lunch" 
+            className="mx-auto w-32 h-32 object-contain mb-4"
+          />
+          <img 
             src="/lovable-uploads/071172b1-8442-4767-8a0c-9ebc62414ec7.png" 
             alt="The Inner Circle by Launch by Lunch" 
             className="mx-auto w-24 h-24 object-contain mb-4"
