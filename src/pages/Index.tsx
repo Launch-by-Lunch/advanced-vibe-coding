@@ -24,7 +24,7 @@ const Index = () => {
       duration: "1 hour",
       objectives: [
         { text: "Crisp for in-app chat", url: "https://crisp.chat/en/" },
-        "Better Stack for Uptime and logs",
+        { text: "Better Stack for Uptime and logs", url: "https://betterstack.com/" },
         "Analytics for who is on the site"
       ]
     }
