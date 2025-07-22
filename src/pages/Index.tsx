@@ -16,6 +16,17 @@ const Index = () => {
         "Login: Using Supabase for advanced login integrations",
         "Q&A"
       ]
+    },
+    {
+      number: 2,
+      title: "Monitoring & Analytics Setup",
+      description: "Implement comprehensive monitoring, analytics, and communication tools to track user engagement and system health.",
+      duration: "1 hour",
+      objectives: [
+        "Crisp for in-app chat",
+        "Better Stack for Uptime and logs",
+        "Analytics for who is on the site"
+      ]
     }
   ];
 
