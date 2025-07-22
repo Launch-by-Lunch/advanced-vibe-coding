@@ -23,7 +23,7 @@ const Index = () => {
       description: "Implement comprehensive monitoring, analytics, and communication tools to track user engagement and system health.",
       duration: "1 hour",
       objectives: [
-        "Crisp for in-app chat",
+        { text: "Crisp for in-app chat", url: "https://crisp.chat/en/" },
         "Better Stack for Uptime and logs",
         "Analytics for who is on the site"
       ]

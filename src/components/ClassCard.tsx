@@ -7,7 +7,7 @@ interface ClassCardProps {
   title: string;
   description: string;
   duration: string;
-  objectives: string[];
+  objectives: (string | { text: string; url: string })[];
 }
 
 export const ClassCard = ({ number, title, description, duration, objectives }: ClassCardProps) => {
@@ -44,7 +44,20 @@ export const ClassCard = ({ number, title, description, duration, objectives }: 
             {objectives.map((objective, index) => (
               <li key={index} className="flex items-start gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 flex-shrink-0"></div>
-                <span>{objective}</span>
+                <span>
+                  {typeof objective === 'string' ? (
+                    objective
+                  ) : (
+                    <a 
+                      href={objective.url} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      {objective.text}
+                    </a>
+                  )}
+                </span>
               </li>
             ))}
           </ul>
