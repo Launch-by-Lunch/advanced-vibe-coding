@@ -57,7 +57,7 @@ const Index = () => {
         </div>
         
         <div className="flex justify-center max-w-4xl mx-auto">
-          <div className="text-center">
+          <div className="text-center flex flex-col gap-8">
             {classes.map((classData) => (
               <ClassCard
                 key={classData.number}
