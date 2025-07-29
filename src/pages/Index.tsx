@@ -47,11 +47,6 @@ const Index = () => {
         
         <div className="flex justify-center max-w-4xl mx-auto">
           <div className="text-center">
-            <img 
-              src="/lovable-uploads/f9d335ad-0a3c-4a35-aad3-23d062fb62e6.png" 
-              alt="The Inner Circle by Launch by Lunch" 
-              className="mx-auto w-32 h-32 object-contain mb-6"
-            />
             {classes.map((classData) => (
               <ClassCard
                 key={classData.number}
