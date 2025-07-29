@@ -27,6 +27,17 @@ const Index = () => {
         { text: "Better Stack for Uptime and logs", url: "https://betterstack.com/" },
         "Analytics for who is on the site"
       ]
+    },
+    {
+      number: 3,
+      title: "Data Management & Customer Integration",
+      description: "Learn how to import and export customer data, and integrate payment systems to streamline your business operations.",
+      duration: "1 hour",
+      objectives: [
+        "Importing customer data from an external source (i.e. CRM)",
+        "Exporting data from a vibe coded app file",
+        "Creating Stripe integrations with customers"
+      ]
     }
   ];
 
